@@ -1,6 +1,6 @@
 #include <obs/graphics/graphics.h>
 
-#include <drm/drm_fourcc.h>
+#include <drm_fourcc.h>
 #include <stdint.h>
 
 const char *getDrmFourccName(uint32_t drm_fourcc);
